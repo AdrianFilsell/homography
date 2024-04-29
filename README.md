@@ -5,4 +5,5 @@ Homography app, wrote this as a testbed to remove and add perspective from/to im
 ![Alt text](/images/homography.png?raw=true "perspective removal example")
 
 Introduction to homography:
+
 https://math.stackexchange.com/questions/494238/how-to-compute-homography-matrix-h-from-corresponding-points-2d-2d-planar-homog

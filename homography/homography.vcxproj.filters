@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="app">
+      <UniqueIdentifier>{3b327d13-c172-431a-8035-d938e528b757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{b2c6db4b-841b-43f5-bdbd-8e1e397c67c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dib">
+      <UniqueIdentifier>{fc4637c5-ef4f-4f2a-a49e-7af45809fa2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matrix">
+      <UniqueIdentifier>{8ad0dafa-314d-4a75-bbdd-4004fbdc9f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dib\jpeg">
+      <UniqueIdentifier>{55c6a625-1193-4bfb-be4a-39228a1c5737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="splitter">
+      <UniqueIdentifier>{38882ecc-cf8e-4644-94de-fc212c7a9abf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="homography.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="homographyDlg.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="dib.h">
+      <Filter>dib</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\cderror.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\cdjpeg.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jdct.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jerror.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jinclude.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jmemsys.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jmorecfg.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jpegint.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jpeglib.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jversion.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\transupp.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg.h">
+      <Filter>dib</Filter>
+    </ClInclude>
+    <ClInclude Include="splitterwnd.h">
+      <Filter>splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="dibwnd.h">
+      <Filter>dib</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h" />
+    <ClInclude Include="2d.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="homography.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="homographyDlg.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="dib.cpp">
+      <Filter>dib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jaricom.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcapimin.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcapistd.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcarith.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jccoefct.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jccolor.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcdctmgr.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jchuff.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcinit.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcmainct.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcmarker.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcmaster.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcomapi.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcparam.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcprepct.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcsample.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jctrans.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdapimin.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdapistd.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdarith.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdatadst.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdatasrc.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdcoefct.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdcolor.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jddctmgr.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdhuff.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdinput.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdmainct.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdmarker.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdmaster.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdmerge.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdpostct.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdsample.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdtrans.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jerror.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jfdctflt.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jfdctfst.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jfdctint.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jidctflt.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jidctfst.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jidctint.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jmemmgr.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jmemnobs.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jquant1.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jquant2.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jutils.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\transupp.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg.cpp">
+      <Filter>dib</Filter>
+    </ClCompile>
+    <ClCompile Include="splitterwnd.cpp">
+      <Filter>splitter</Filter>
+    </ClCompile>
+    <ClCompile Include="dibwnd.cpp">
+      <Filter>dib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\homography.ico">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="homography.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\homography.rc2">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

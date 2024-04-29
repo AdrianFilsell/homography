@@ -2,6 +2,8 @@ Homography app, wrote this as a testbed to remove and add perspective from/to im
 
 [https://www.youtube.com/watch?v=w7J6oxk9tSA](https://www.youtube.com/watch?v=LKor9fYqG9A)
 
+Example of persepective removal:
+
 ![Alt text](/images/homography.png?raw=true "perspective removal example")
 
 Introduction to homography:
